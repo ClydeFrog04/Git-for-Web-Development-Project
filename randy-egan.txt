@@ -87,8 +87,15 @@ border: 1px dotted black;
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+1. What is the difference between an inline element and a block element? An inline element does not start on a new line and only takes up as much width as necessary. A block-level element always starts on a new line and takes up the full width available.
+    
+2. What happens when an element is positioned absolutely? it is positioned relative to the nearest positioned ancestor, and if it does not have one, it will use the document body.
+    
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? This is a very good question I will be looking into further this weekend :-]
+    
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+block: p, h1, div
+inline: span, input
+inline-block: img
+    
+5. In your own words, explain the box model. What is the fix for the box model? As I understand, the box model is the idea that html elements are boxes that contain other elements, and exist inside other elements. At the moment I am not sure what the problem with the box model is, so I have no idea what the fix for it is...
